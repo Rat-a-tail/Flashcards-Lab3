@@ -6,7 +6,8 @@
 App displays slide showing a question and another when tapped, shows the answer to that slide. Toggles between front and back view.
 
 ### App Walk-through
-![project](Users/patriciakinsumbya/Desktop/ezgif.com-gif-maker%20(4).gif)
+
+<img src="https://raw.githubusercontent.com/Rat-a-tail/Flashcards/main/ezgif.com-gif-maker%20(4).gif" width=200><br>
 
 ## Required
 - [x] Create New Project in Xcode
