@@ -16,9 +16,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    @IBAction func didTaponFlashcard(_ sender: Any) {
+  
+    @IBAction func tapgesturecommand(_ sender: Any) {
+        // FrontLabel.isHidden = true
+        if FrontLabel.isHidden {
+            FrontLabel.isHidden = false
+        } else {
+            FrontLabel.isHidden = true
+        }
     }
     
-
 }
 

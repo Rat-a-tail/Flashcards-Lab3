@@ -28,7 +28,7 @@
                                         <color key="textColor" red="0.87488481129999995" green="0.94469662350000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the capital of Uganda?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALw-BM-iwF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the capital of Uganda?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ALw-BM-iwF">
                                         <rect key="frame" x="0.0" y="0.0" width="286" height="267"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
@@ -40,7 +40,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="obo-ZX-hue" appends="YES" id="kFS-Px-VJT"/>
+                                    <outletCollection property="gestureRecognizers" destination="8PM-iv-U7T" appends="YES" id="MrB-fr-qNb"/>
                                 </connections>
                             </view>
                         </subviews>
@@ -49,14 +49,14 @@
                         <gestureRecognizers/>
                     </view>
                     <connections>
-                        <outlet property="Answer" destination="1Uv-oX-cg0" id="We0-5b-fn8"/>
-                        <outlet property="Country" destination="ALw-BM-iwF" id="L5T-ru-tyN"/>
+                        <outlet property="BackLabel" destination="1Uv-oX-cg0" id="qjZ-o8-WXW"/>
+                        <outlet property="FrontLabel" destination="ALw-BM-iwF" id="1yN-T7-93w"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="obo-ZX-hue">
+                <tapGestureRecognizer id="8PM-iv-U7T">
                     <connections>
-                        <action selector="didTaponFlashcard:" destination="BYZ-38-t0r" id="yac-rk-yXM"/>
+                        <action selector="tapgesturecommand:" destination="BYZ-38-t0r" id="fag-ys-yXw"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
