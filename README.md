@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-## FLASHCARD APP
-
-## Lab 1
-
-### App Description
-App displays slide showing a question and another when tapped, shows the answer to that slide. Toggles between front and back view.
-
-### App Walk-through
-
-<img src="https://raw.githubusercontent.com/Rat-a-tail/Flashcards/main/ezgif.com-gif-maker%20(4).gif" width=200><br>
-
-=======
 ## Lab 3
 
 ### App Description
@@ -56,8 +43,6 @@ App displays slide showing a question and another when tapped, shows the answer 
 ### App Walk-though
 <img src="https://raw.githubusercontent.com/Rat-a-tail/Flashcards/main/ezgif.com-gif-maker%20(4).gif" width=200><br>
 
-
->>>>>>> 170a121b3a4f08b32639c53b0d412184343c2475
 ## Required
 - [x] Create New Project in Xcode
 - [x] Add a view for the front side of the flashcard to display the question
@@ -68,7 +53,4 @@ App displays slide showing a question and another when tapped, shows the answer 
 - [x] Toggle the flashcard between the question side and the answer side
 - [ ] Style the question and answer side of the card to better distinguish between the two sides
 - [ ] Add selectable multiple choice answers beneath the card
-<<<<<<< HEAD
-=======
-- [ ] 
->>>>>>> 170a121b3a4f08b32639c53b0d412184343c2475
+
