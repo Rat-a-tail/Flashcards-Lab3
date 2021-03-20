@@ -6,13 +6,18 @@
 //
 
 import UIKit
-struct Flashcard {
+class Flashcard {
+    
+    init(question : String , answer : String) {
+        self.answer = answer
+        self.question = question
+    }
     var question: String
     var answer: String
 }
 
 class FirstViewController: UIViewController {
-
+    var editableFlashCard : Flashcard?
     override func viewDidLoad() {
         super.viewDidLoad()
         readSavedFlashcards()
@@ -37,6 +42,7 @@ class FirstViewController: UIViewController {
         CreationViewController.initialQuestion = FrontLabel.text
         CreationViewController.initialAnswer = BackLabel.text
         if segue.identifier == "EditSegue" {
+            
             CreationViewController.initialQuestion = FrontLabel.text
             CreationViewController.initialAnswer = BackLabel.text
         }
@@ -63,6 +69,7 @@ class FirstViewController: UIViewController {
         updateLabels()
         updateNextPrevButtons()
         
+        
     }
     
     @IBAction func tapgesturecommand(_ sender: Any) {
@@ -79,6 +86,7 @@ class FirstViewController: UIViewController {
         
         self.FrontLabel.text = currentFlashcard.question
         self.BackLabel.text = currentFlashcard.answer
+        editableFlashCard = currentFlashcard
 
     }
 
@@ -139,4 +147,15 @@ class FirstViewController: UIViewController {
         updateNextPrevButtons()
         updateLabels()
     }
+    
+    func editFlashCardTwo(card : Flashcard , question : String ,  answer:String){
+        
+        guard let flashCard = editableFlashCard else {return}
+        flashCard.question = question
+        flashCard.answer = answer
+        
+        
+    }
+    
+
 }

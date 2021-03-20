@@ -27,11 +27,12 @@ class CreationViewController: UIViewController {
         
         let answerText = answerTextField.text
         
-        flashcardsController.updateflashcard(question: questionText!, answer: answerText!)
+        //flashcardsController.updateflashcard(question: questionText!, answer: answerText!)
+        flashcardsController.editFlashCardTwo(card: flashcardsController.editableFlashCard!, question: questionText!, answer: answerText!)
        
         dismiss(animated: true)
         
-        
+
     }
     
     override func viewDidLoad() {
@@ -53,3 +54,5 @@ class CreationViewController: UIViewController {
      */
 }
 
+
+//identifiable, equatable and more....
