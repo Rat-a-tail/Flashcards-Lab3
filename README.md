@@ -4,7 +4,7 @@
 User can browse through multiple flashcards, re-open app and see previusly created flashcards in addition to editing existing flashcards
 
 ### App Walk-though
-<img src="http://g.recordit.co/9B0BYtd8qR.gif" width=200><br>
+<img src="http://g.recordit.co/JlcuaZbgzn.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
